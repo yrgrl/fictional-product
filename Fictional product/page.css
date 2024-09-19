@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0e3b39d0;
+    color: #020202;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, #124731, #fffcfc);
+    background-size: 100% 300px;
+    background-position: 0% 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000a8;
+    flex-direction: column;
+}
+
+.hero h1 {
+
+    font-size: 50px;
+    font-style:oblique ;
+    margin-bottom: 100px;
+    margin-top: 10px;
+}
+
+.hero .logo {
+    width:150px; /* Adjust the size of the logo */
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 90px;
+   
+}
+
+.about {
+    background-image: linear-gradient(to bottom, #124731, #fff);
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.collections {
+    background-image: linear-gradient(to bottom, #124731, #fff);
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collections ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.collections li {
+    margin: 20px;
+    width: calc(50% - 40px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collections img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.contact {
+    background-image: linear-gradient(to bottom, #124731, #fff);
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+.contact icon {
+        margin: 0 auto;
+        width: auto;
+        text-align: inherit;
+}
+.icon-btn {
+    margin-left: auto;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    color: #10612fb6;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 4px;
+    text-align: center;
+  }
+  .icon-btn i {
+    display: inline-block;
+    vertical-align: middle;
+}
+  
+  .instagram {
+    color: rgba(12, 107, 40, 0.651);
+  }
+  
+  .tiktok {
+    color: #135a1c;
+  }
+
+  .icon-btn:hover {
+    transform: scale(1.10);
+    color: #f5f4f4;
+  }
+  
+  .instagram:hover {
+    background-color: #000000;
+  }
+  
+  .tiktok:hover {
+    background-color: black;
+  }
+  .social {
+    display: flex;
+    justify-content: center;
+  }
